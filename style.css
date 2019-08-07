@@ -1,0 +1,515 @@
+body{
+    padding: 0%;
+    margin: 0%
+}
+            /* HOME */
+.logo-img {
+    width: 100px;
+    height: 60px;
+    padding: 0%;
+    float: left;
+}
+
+.carousel-item img{
+    width: 100%;
+    height:700px;
+}
+.secondary{
+    background: deepskyblue;
+}
+
+header {
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    transition: all .6s ease
+}
+.nav-link{
+    color: #e4e0e0;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-right: 5px ;
+    transition: .3s;
+}
+
+.nav-link:hover{
+    border: none;
+    color: #f3f3f3;
+}
+
+
+.padding {
+    margin-top : 100px
+}
+
+                        /* WORK AND ANIMINATION */
+
+.sub-heading{
+    margin-bottom: 50px
+}
+
+
+.sub-heading::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    margin-left: -3%;
+    width: 6%;
+    height: 2px;
+    background-color: deepskyblue ;
+    z-index: 1;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    -ms-transition: 0.3s ease
+}
+
+.sub-heading:hover:before {
+    width: 24%;
+    margin-left: -12.2%
+}
+
+.sub-heading:after{
+    content: "" ;
+    position: absolute;
+    top : 75% ;
+    transform: translateX(-55%);
+    width : 24% ;
+    margin-left: -12%;
+    height: 2px;
+    background-color: #e1e1e1 
+}
+
+.sub-heading p {
+    color: #505050 ;
+    display: inline-block;
+    position: relative;
+    line-height: 24px ;
+    word-spacing: 0.25em
+}
+.introText h2 {
+    font-size: 3rem;
+    font-weight: 700 ;
+color:  deepskyblue;
+margin-bottom: 10px
+}
+.intro-block{
+    position: relative;
+    background: #f7f7f7;
+    margin: 50px 0px ;
+    padding: 75px 25px 40px;
+}
+
+.intro-block:hover , .intro-block:active {
+    background-color: deepskyblue ;
+}
+
+.intro-block:hover{
+    transition: .6s ease    
+}
+.intro-block h3 {
+font-weight: 700 ;
+color:  deepskyblue ;
+margin-bottom: 40px 
+}
+.intro-block p {
+    color:  #505050 
+}
+.intro-block:hover h3 {
+    color: white ;
+}
+.intro-block:hover .intro-icon{
+    border-color: deepskyblue       
+}
+
+
+.intro-icon{
+    font-size: 2.5em;
+    position: absolute;
+    top: -11%;
+    left: 37%;
+    border: 10px solid rgb(154, 220, 241);
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    border-radius: 50% ;
+    color: white;
+    background: deepskyblue
+}
+
+
+.workingFeature {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7) ),   url(./asset/art-big-data-blur-373543.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10px
+}
+.workingFeature .sub-heading::after{
+    transform: translateX(-50.5%) !important
+}
+
+.workingFeature h2 {
+    color: white ;
+    font-size : 250%;
+    font-weight: 700
+}  
+
+.workingFeature p {
+    color: #f3f3f3                      
+}
+
+.feature-list-icon {
+    font-size: 2em;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50% ;
+    color: deepskyblue;
+    background: white
+}
+
+.feature-list-icon::before {
+    content: "";
+    position: absolute;
+    left: 10%;
+    top: 35.5%;
+    margin-left: -3%;
+    width: 20%;
+    height: 3px;
+    background-color: deepskyblue ;
+    z-index: 1;
+
+}
+.feature-list-icon::after {
+   content: "";
+   position: absolute;
+   top: 34.5%;
+   left: 5%;
+   background-color: white;
+   height: 8px;
+   width: 30%;
+}
+
+
+.navbar-toggler{
+    color: white !important
+}
+
+.borders{
+    border: 2px solid white;
+    padding: 10px ;
+    border-radius: 8px ;
+    background-color: #5050501f;
+    margin:2px
+}
+.feature-datails h3 {
+    color: white;
+    margin-top: 30px
+}
+
+                                /* TEAM */
+
+.team {
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./asset/blank-composition-data-373076.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 120px 0px;
+    margin-top: 50px
+}
+
+
+.team p,h3 {
+    color: white
+}
+
+.team .sub-heading::after{
+    transform: translateX(-55%)
+}
+.team h2 {
+    color: white ;
+}
+
+.team h1 {
+    color: white;
+    font-weight: 700
+}
+
+
+.team h4 {
+    color: white
+}
+
+.img-client {
+    width: 100px ;
+    height: 100px;
+    border-radius: 100% ;
+    padding: 5px;
+    border: 2px solid deepskyblue;
+}
+
+.team-detail {
+    border: 1px solid rgb(231, 221, 221);
+    margin-bottom: 6px;
+    border-radius: 3px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2))
+}
+
+
+                                /* CONTACT */
+
+#contactUs{ 
+    margin-top: 50px;
+}
+
+.contactDetails p {
+    color: #817e7e;
+    text-align: right;   
+    margin: 20px 0px;
+}
+
+.footer{
+    background: rgb(231, 236, 238);
+    width: 100%;
+    color: deepskyblue;
+    text-align: center;
+    margin: 0px
+}
+
+.footer p {
+    padding: 10px;
+}
+
+.contact-social a {
+    font-size: 30px;
+    padding-right:5px;
+    color: white 
+}
+
+
+
+.heading-contact h2{
+    font-size: 3em;
+    font-weight: 700;
+    padding: 20px;
+    color:deepskyblue;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: inline-block;
+}
+
+.heading-contact .sub-heading::after {
+    transform: translateX(-40.5%);
+}
+
+
+.heading-contact .sub-heading::before {
+}
+.contact-social{
+    text-align: right
+}
+.bg-light iframe {
+    padding-top: 8px;
+    width: 500px ;
+    height:300px
+}
+.fa-facebook {
+    color: #3b5998
+  }
+  .fa-twitter{
+    color: #00aced
+  }
+  
+  .fa-google-plus-g {
+    color: #dd4b39
+  }
+  
+  .fa-instagram {
+    color : #c13584
+  }
+  
+  .fa-youtube{
+    color: #bb0000
+  }
+
+  .fa-twitter-square{
+      color: #00aced ;
+      
+  }
+  
+  .fa-facebook:hover ,.fa-twitter:hover,.fa-google-plus-g:hover, .fa-instagram:hover, .fa-youtube:hover {
+  color: rgba(0,0,0,0.8)
+  }
+
+.line{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    /* float: right; */
+}
+/* <!------------- our team social icon ----------> */
+.team-social a {
+    font-size: 30px;
+    padding-right:5px;
+    color: white !important;
+}
+
+            /* RESPONSIVE LAYOUT DESIGN */
+
+
+@media (max-width: 501px) {
+    .sub-heading::before{
+        top: 80%;
+    }
+    
+    .sub-heading:after{
+        top: 80%;
+    }
+    
+}
+
+@media (max-width: 1040px) {
+    
+    .carousel-item img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .sub-heading::before{
+        left: 49%;
+        top: 75%;
+    }
+    .workingFeature .sub-heading::after {
+        left: 64.6%;
+    }
+    
+    .sub-heading:hover:before {
+        width: 24%;
+        margin-left: -11.5%
+    }
+    
+    .sub-heading:after{
+        transform: translateX(-55%);
+        width : 24% ;
+        margin-left: -15%;
+        top: 75%;
+
+    }
+    
+    .intro-icon{
+     
+        left: 35%;
+    }
+
+    .feature-list-icon::before {
+        left: 13%;
+        top: 31.2%;
+    
+    }
+    .feature-list-icon::after {
+       top: 30%;
+       left: 8%;
+    }
+}
+
+@media (max-width: 991px) {
+    .sub-heading::before{
+        left: 48.5%;
+        top: 75%;
+    }
+    
+    .sub-heading:hover:before {
+        width: 24%;
+        margin-left: -11.5%
+    }
+    
+    .sub-heading:after{
+        transform: translateX(-55%);
+        width : 24% ;
+        left: 65%;
+    }
+    .intro-icon{
+     
+        left: 30%;
+    }
+    
+    .heading-contact .sub-heading::after{
+        transform: translateX(-55%)
+    }
+
+    .workingFeature .sub-heading::after {
+        left: 64.2%;
+    }
+
+    
+}
+
+@media (max-width : 790px){
+
+   .bg-light iframe {
+        width: 400px;
+    }
+}
+
+
+@media (max-width : 767px){
+    
+    .feature-list-icon::before {
+        left: 5%;
+        top: 42%;
+    
+    }
+    .feature-list-icon::after {
+       top: 40%;
+       left: 2%;
+    }
+
+    
+    .bg-light iframe {
+         width: 100%;
+     }
+     .work_seo .intro-icon{
+        position: absolute;
+        left: 40%;
+        top: -15%
+    }
+}
+@media (max-width: 576px) {
+    .intro-icon{
+     
+        left: 40%;
+        top: -14%
+    }
+}
+
+@media (max-width: 501px) {
+    .sub-heading:after{
+        top : 80% ;
+ 
+    }
+
+    .sub-heading::before{
+        top : 80% ;
+        
+    }
+}
+
+@media (max-width: 380px) {
+    .intro-icon{
+     
+        left: 36%;
+        top: -15%
+    }
+
+    .work_seo .intro-icon{
+        position: absolute;
+        left: 35%;
+        top: -15%
+    }
+}
